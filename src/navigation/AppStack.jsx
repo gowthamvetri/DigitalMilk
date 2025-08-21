@@ -21,7 +21,6 @@ const AppStack = () => {
           <Ionicons name='home-outline' size={20} color={color}/>
         )
         }}/>
-
         <Drawer.Screen component={ProfileScreen} name='Profile' options={{
           drawerIcon:({color})=>(
           <Ionicons name='person-outline' size={20} color={color}/>

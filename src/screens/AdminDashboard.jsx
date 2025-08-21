@@ -1,9 +1,9 @@
-import { View, Text, ScrollView, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, ScrollView, StyleSheet, TouchableOpacity, Image } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import Config from 'react-native-config'
 import axios from 'axios'
 
-const AdminDashboard = () => {
+const AdminDashboard = ({navigation}) => {
 
     const style = StyleSheet.create({
         box:{
@@ -46,8 +46,11 @@ const AdminDashboard = () => {
 
   return (
     <ScrollView style={{padding:20}}>
-        <View style={{alignItems:'center',marginBottom:20}}>
+        <View style={{alignItems:'center',marginBottom:20,flexDirection:'row',justifyContent:'space-between'}}>
             <Text style={{fontFamily:'Ubuntu-Bold',fontSize:22}}>Dashboard</Text>
+            <TouchableOpacity onPress={()=>navigation.openDrawer()}>
+                <Image style={{width:40,height:40,borderRadius:50}} source={require('../assets/profile.png')} imageStyle={{borderRadius:50}}/>
+            </TouchableOpacity>
         </View>
 
         <View style={{display:'flex',flexDirection:'row',justifyContent:'space-between'}}>
