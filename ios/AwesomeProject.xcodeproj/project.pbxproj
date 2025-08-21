@@ -11,6 +11,15 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		1C987517A4CC4BCE990210DD /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E3AF8683FEC4A229D526E30 /* Ubuntu-Bold.ttf */; };
+		D1707A12ADCD495ABE0E5737 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEC6995A1E214B119C7DE005 /* Ubuntu-BoldItalic.ttf */; };
+		6DAC41CF22324383B27FC8FE /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9A887435FAD4A02B3CD6764 /* Ubuntu-Italic.ttf */; };
+		25731C362D744ED58DC6E330 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 944F25AA05314A33AF8944C1 /* Ubuntu-Light.ttf */; };
+		C3CB964F8A504853909A1FA7 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D2261728E6E4057AC204D06 /* Ubuntu-LightItalic.ttf */; };
+		6752F9DF0AFE4CF69B7588F5 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A15CF90F1AAB4E4B8833C18C /* Ubuntu-Medium.ttf */; };
+		7A2BF9250CEB425E87C11895 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59705F2CFCD04ED281C9286A /* Ubuntu-MediumItalic.ttf */; };
+		2EE9CE15DA8C4339BF34E01F /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4208D6D52B34031B9ECEF34 /* Ubuntu-Regular.ttf */; };
+		172C533CE0F2418CA55A4B42 /* UFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9B159C522384B20A9D5FCB9 /* UFL.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,15 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AwesomeProject/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5E3AF8683FEC4A229D526E30 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Bold.ttf"; path = "../src/assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DEC6995A1E214B119C7DE005 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-BoldItalic.ttf"; path = "../src/assets/fonts/Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9A887435FAD4A02B3CD6764 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Italic.ttf"; path = "../src/assets/fonts/Ubuntu-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		944F25AA05314A33AF8944C1 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Light.ttf"; path = "../src/assets/fonts/Ubuntu-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D2261728E6E4057AC204D06 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-LightItalic.ttf"; path = "../src/assets/fonts/Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A15CF90F1AAB4E4B8833C18C /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Medium.ttf"; path = "../src/assets/fonts/Ubuntu-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		59705F2CFCD04ED281C9286A /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Ubuntu-MediumItalic.ttf"; path = "../src/assets/fonts/Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F4208D6D52B34031B9ECEF34 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; name = "Ubuntu-Regular.ttf"; path = "../src/assets/fonts/Ubuntu-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9B159C522384B20A9D5FCB9 /* UFL.txt */ = {isa = PBXFileReference; name = "UFL.txt"; path = "../src/assets/fonts/UFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +111,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				786B70EA2EB34F548C653E9A /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +134,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		786B70EA2EB34F548C653E9A /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5E3AF8683FEC4A229D526E30 /* Ubuntu-Bold.ttf */,
+				DEC6995A1E214B119C7DE005 /* Ubuntu-BoldItalic.ttf */,
+				F9A887435FAD4A02B3CD6764 /* Ubuntu-Italic.ttf */,
+				944F25AA05314A33AF8944C1 /* Ubuntu-Light.ttf */,
+				5D2261728E6E4057AC204D06 /* Ubuntu-LightItalic.ttf */,
+				A15CF90F1AAB4E4B8833C18C /* Ubuntu-Medium.ttf */,
+				59705F2CFCD04ED281C9286A /* Ubuntu-MediumItalic.ttf */,
+				F4208D6D52B34031B9ECEF34 /* Ubuntu-Regular.ttf */,
+				E9B159C522384B20A9D5FCB9 /* UFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +221,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1C987517A4CC4BCE990210DD /* Ubuntu-Bold.ttf in Resources */,
+				D1707A12ADCD495ABE0E5737 /* Ubuntu-BoldItalic.ttf in Resources */,
+				6DAC41CF22324383B27FC8FE /* Ubuntu-Italic.ttf in Resources */,
+				25731C362D744ED58DC6E330 /* Ubuntu-Light.ttf in Resources */,
+				C3CB964F8A504853909A1FA7 /* Ubuntu-LightItalic.ttf in Resources */,
+				6752F9DF0AFE4CF69B7588F5 /* Ubuntu-Medium.ttf in Resources */,
+				7A2BF9250CEB425E87C11895 /* Ubuntu-MediumItalic.ttf in Resources */,
+				2EE9CE15DA8C4339BF34E01F /* Ubuntu-Regular.ttf in Resources */,
+				172C533CE0F2418CA55A4B42 /* UFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
